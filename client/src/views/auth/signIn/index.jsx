@@ -25,7 +25,7 @@ import DefaultAuth from "layouts/auth/Default";
 
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { RiEyeCloseLine } from "react-icons/ri";
-import { postApi } from "services/api";
+import { postApi } from "../../../services/api";
 import { loginSchema } from "schema";
 import { toast } from "react-toastify";
 import Spinner from "components/spinner/Spinner";
